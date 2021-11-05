@@ -1,4 +1,8 @@
-## 周靖越
+# 周靖越
+
+[VGPU执行3D渲染结果出错类问题排查方法](./vgpu_d3d_debug/SparseMorphTargets_debug.md)
+
+<!--
 
 You can use the [editor on GitHub](https://github.com/zhoujingyuecs/zhoujinyuecs.Github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -35,3 +39,5 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+-->
