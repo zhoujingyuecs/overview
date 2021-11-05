@@ -60,8 +60,7 @@
 
 ![pic5](./pic5.png)
 
-&emsp;&emsp;```glDrawElementsBaseVertex(171522)```的输入数据为最终要绘制的模型顶点坐标、法线以及切线。这些数据是在之前的```glDrawElementsBaseVertex(4)```过程中通过将各个表情的模型顶点坐标、法线以及切线差值叠加到基准表情上得到的。将Visual Studio 图形诊断工具中的```ID3D10Device->DrawIndexed(4,0,0)
-```和RenderDoc中的```glDrawElementsBaseVertex(4)```进行比对，可以发现在输入纹理的第二个面，即输入的各个表情的模型顶点法线差值上，两边的每一行都有两个像素的偏移。  
+&emsp;&emsp;```glDrawElementsBaseVertex(171522)```的输入数据为最终要绘制的模型顶点坐标、法线以及切线。这些数据是在之前的```glDrawElementsBaseVertex(4)```过程中通过将各个表情的模型顶点坐标、法线以及切线差值叠加到基准表情上得到的。将Visual Studio 图形诊断工具中的```ID3D10Device->DrawIndexed(4,0,0)```和RenderDoc中的```glDrawElementsBaseVertex(4)```进行比对，可以发现在输入纹理的第二个面，即输入的各个表情的模型顶点法线差值上，两边的每一行都有两个像素的偏移。  
 
 ![pic6](./pic6.png)
 
