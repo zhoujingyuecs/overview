@@ -98,7 +98,6 @@
     }
     result = TotalSize;
     return result;
-}
 ```
 
 &emsp;&emsp;此处先在条件判断中对result赋值，之后又对result赋值，存在明显逻辑错误。且在调试中可以看到，result的值为594288，TotalSize的值为594280，正好相差8。综合分析代码上下文后得出结论：```result = TotalSize;```应该放在```if (bTotalSizeAlign)```之前。更改后再次编译，测试程序运行正常。  
