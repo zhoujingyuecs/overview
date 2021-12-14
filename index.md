@@ -1,5 +1,7 @@
 # 周靖越
 
+[基于图像识别算法的物体认知系统关键技术研究及应用](./graduation_project/presentation.md)
+
 [VGPU执行3D渲染结果出错类问题排查方法](./vgpu_d3d_debug/SparseMorphTargets_debug.md)
 
 <!--
