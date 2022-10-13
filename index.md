@@ -1,6 +1,6 @@
 # 周靖越
 
-[人为何、如何思考](./why_people_thinking/why_people_thinking.md)
+[思考](./why_people_thinking/why_people_thinking.md)
 
 [基于图像识别算法的物体认知系统关键技术研究及应用](./graduation_project/presentation.md)
 
